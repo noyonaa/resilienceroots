@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import "../styles/Home.css";
 import Navbar from "./Navbar";
 
-const ContentSection = ({ title, text, image, imagePosition }) => {
+const ContentSection = ({ title, text, image, imagePosition ="left"}) => {
   const isImageOnLeft = imagePosition === "left";
 
   return (
@@ -12,12 +12,12 @@ const ContentSection = ({ title, text, image, imagePosition }) => {
       className={`content5 bg-white ${
         isImageOnLeft ? "flex" : "flex flex-row-reverse"
       }`}
-      data-aos="fade-right"
+      data-aos={isImageOnLeft ? "fade-left" : "fade-right"}
       data-aos-duration="2000"
     >
-      <div className="container mx-auto py-8 sm:py-12 md:py-16 lg:py-20 flex items-center">
+      <div className="container mx-auto py-8 sm:py-12 md:py-16 lg:py-20 flex flex-col md:flex-row items-center">
         <div
-          className={`max-w-3xl mx-auto ${
+          className={`text-section max-w-3xl mx-auto ${
             isImageOnLeft ? "md:mr-8" : "md:ml-8"
           }`}
         >
@@ -30,7 +30,7 @@ const ContentSection = ({ title, text, image, imagePosition }) => {
             </p>
           </div>
         </div>
-        <div className="max-w-lg mx-auto">
+        <div className="image-section max-w-lg mx-auto">
           <img src={image} alt="Content" className="w-full h-auto" />
         </div>
       </div>
@@ -38,14 +38,19 @@ const ContentSection = ({ title, text, image, imagePosition }) => {
   );
 };
 
-const ContentSectionRight = ({ title, text, image, imagePosition }) => {
+const ContentSectionRight = ({
+  title,
+  text,
+  image,
+  imagePosition = "right",
+}) => {
   const isImageOnLeft = imagePosition === "left";
   return (
     <section
       className={`content5 bg-white ${
         isImageOnLeft ? "flex" : "flex flex-row-reverse"
       }`}
-      data-aos="fade-left"
+      data-aos={isImageOnLeft ? "fade-left" : "fade-right"}
       data-aos-duration="2000"
     >
       <div className="container mx-auto py-8 sm:py-12 md:py-16 lg:py-20 flex flex-col md:flex-row items-center">
@@ -118,7 +123,7 @@ const Services = () => {
       />
 
       <ContentSectionRight
-        title="Another Section Title"
+        title="Parenting Packages"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         image="/images/parenting.png"
       />
