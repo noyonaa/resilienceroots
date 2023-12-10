@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Notice the change here
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -12,13 +12,13 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/services" component={Services} />
-        <Route path="/contacts" component={Contacts} />
-        <Route path="/login" component={Login} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </Router>
   );
 };
