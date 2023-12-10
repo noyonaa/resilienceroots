@@ -1,6 +1,7 @@
 // src/components/Home.js
 import React from "react";
 import Navbar from "./Navbar";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
@@ -14,11 +15,9 @@ const Home = () => {
           backgroundImage: "url('/images/homepic.png')", // Replace with the correct path
         }}
       >
-        <div
-          className="overlay"
-          style={{ opacity: 0.3, backgroundColor: "rgb(187, 187, 187)" }}
-        ></div>
-        <div className="container mx-auto text-center">
+        <div className="overlay"></div> {/* Added overlay div */}
+        <div className="container mx-auto text-center relative z-10">
+          {/* Set a higher z-index for the text container */}
           <div className="max-w-3xl mx-auto">
             <h1 className="text-7xl font-bold mb-4 leading-tight">
               Cultivating Resilience from the Roots Up!
@@ -57,7 +56,7 @@ const Home = () => {
       <footer className="bg-gray-800 text-white py-12">
         <div className="container mx-auto text-center">
           <p className="text-lg">
-            &copy; 2023 Your Website Name. All rights reserved.
+            &copy; 2023 Resilience Roots. All rights reserved.
           </p>
           <div className="mt-4">
             <a href="#" className="text-gray-400 hover:text-white mx-2">
