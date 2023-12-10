@@ -1,0 +1,35 @@
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Additional styles go here */
+
+/* Custom styling for the fixed navbar */
+body {
+  padding-top: 16px; /* Adjust this value based on your navbar height */
+}
+
+/* Ensure content below the fixed navbar is not obscured */
+main {
+  margin-top: 64px; /* Adjust this value based on your navbar height */
+}
+
+/* Font family */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+/* src/styles/tailwind.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom styling for the fixed navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index based on your design needs */
+}
+
