@@ -115,24 +115,6 @@ const Navbar = () => {
                   Contacts
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/login"
-                  className="text-white hover:text-gray-300 block"
-                  onClick={toggleMenu}
-                >
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/signup"
-                  className="text-white hover:text-gray-300 block"
-                  onClick={toggleMenu}
-                >
-                  Sign Up
-                </Link>
-              </li>
             </ul>
           </div>
           <div className="hidden lg:flex lg:items-center lg:justify-end lg:flex-grow">
@@ -162,20 +144,6 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <div className="ml-4">
-              <Link
-                to="/login"
-                className="btn btn-success text-white bg-green-700 hover:bg-green-600 focus:ring focus:ring-green-300 transition duration-300 ease-in-out font-montserrat py-2 px-6 rounded-full"
-              >
-                Login
-              </Link>
-              <Link
-                to="/signup"
-                className="btn btn-success-light text-white bg-green-600 hover:bg-green-500 focus:ring focus:ring-green-300 transition duration-300 ease-in-out font-montserrat py-2 px-6 rounded-full ml-2"
-              >
-                Sign Up
-              </Link>
-            </div>
           </div>
         </div>
       </div>
