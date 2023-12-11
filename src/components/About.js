@@ -35,8 +35,14 @@ const About = () => {
             <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
               Our Story
             </h4>
-            <div className="text-justify mb-6 mx-4 sm:mx-6 md:mx-8">
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+            <div
+              className="text-justify mb-6 mx-4 sm:mx-6 md:mx-8"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+              >
                 Resilience Roots was born out of a shared realization that
                 mental well-being is the cornerstone of a fulfilling life. As
                 students navigating the challenges of academia and personal
@@ -45,7 +51,9 @@ const About = () => {
                 barriers that often hindered people from seeking the help they
                 needed.
               </p>
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+              >
                 Determined to break down these barriers, Resilience Roots
                 emerged as a mental health startup committed to fostering
                 resilience right from the roots. We understand that everyone's
@@ -56,7 +64,11 @@ const About = () => {
             <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
               Our Mission
             </h4>
-            <div className="text-justify mb-6 mx-4 sm:mx-6 md:mx-8">
+            <div
+              className="text-justify mb-6 mx-4 sm:mx-6 md:mx-8"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
                 At Resilience Roots, our mission is to make mental health
                 support accessible, destigmatize therapy, and empower
@@ -69,34 +81,66 @@ const About = () => {
               What Sets Us Apart
             </h4>
             <div className="text-justify mb-6 mx-4 sm:mx-6 md:mx-8">
-              <p className="text-lg font-bold mb-2 sm:text-xl md:text-2xl">
+              <p
+                className="text-lg font-bold mb-2 sm:text-xl md:text-2xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 Holistic Approach
               </p>
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 We believe in addressing mental health from a holistic
                 perspective, considering the interconnectedness of mind, body,
                 and spirit.
               </p>
-              <p className="text-lg font-bold mb-2 sm:text-xl md:text-2xl">
+              <p
+                className="text-lg font-bold mb-2 sm:text-xl md:text-2xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 Inclusivity
               </p>
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 Resilience Roots is dedicated to providing inclusive and diverse
                 mental health resources that cater to the unique needs of each
                 individual.
               </p>
-              <p className="text-lg font-bold mb-2 sm:text-xl md:text-2xl">
+              <p
+                className="text-lg font-bold mb-2 sm:text-xl md:text-2xl"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 Technology-Driven Solutions
               </p>
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 Leveraging the power of technology, we offer innovative and
                 user-friendly platforms to connect individuals with qualified
                 mental health professionals and resources.
               </p>
-              <p className="text-lg font-bold mb-2 sm:text-xl md:text-2xl">
+              <p
+                className="text-lg font-bold mb-2 sm:text-xl md:text-2xl"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 Community Building
               </p>
-              <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-8">
+              <p
+                className="text-base sm:text-lg md:text-xl mb-4 md:mb-8"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 We understand the importance of a supportive community.
                 Resilience Roots encourages open dialogue, shared experiences,
                 and the building of connections that foster resilience.
