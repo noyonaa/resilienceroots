@@ -15,7 +15,7 @@ const Contacts = () => {
       <section
         className="header13 bg-cover bg-center text-white relative h-40 sm:h-56 md:h-64 lg:h-80 flex items-center"
         style={{
-          backgroundImage: "url('/images/aboutpic.jpg')", // Replace with the correct path
+          backgroundImage: "url('/images/contactpic.jpg')", // Replace with the correct path
         }}
       >
         <div className="overlay"></div>
