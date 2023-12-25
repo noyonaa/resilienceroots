@@ -25,7 +25,7 @@ const Home = () => {
               Welcome to Resilience Roots
             </h1>
             <p className="text-base sm:text-lg md:text-2xl mb-6">
-              Where Strength Begins and despair ends!
+              From Struggle to Strength, Every Step Counts
             </p>
 
             <div className="social-row text-base sm:text-lg md:text-2xl mt-8">
