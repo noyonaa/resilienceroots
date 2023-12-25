@@ -79,6 +79,7 @@ const ContentSectionRight = ({
 const Services = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Resilience Roots - Services";
   }, []);
   return (
     <div>

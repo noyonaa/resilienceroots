@@ -5,6 +5,7 @@ import { useEffect } from "react";
 const Login = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
+      document.title = "Resilience Roots - Login";
     }, []);
   return (
     <div>

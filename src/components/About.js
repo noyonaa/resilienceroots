@@ -6,6 +6,7 @@ import { useEffect } from "react";
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Resilience Roots - About Us";
   }, []);
   return (
     <div>
